@@ -1,0 +1,39 @@
+{
+  "name": "meetapp-backend",
+  "version": "1.0.0",
+  "description": "Backend for meetapp app and web",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kappyh/meetapp-backend.git"
+  },
+  "keywords": [
+    "rocketseat",
+    "bootcamp",
+    "expressjs",
+    "nodejs",
+    "meetapp"
+  ],
+  "author": "Gabriela Mendes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Kappyh/meetapp-backend/issues"
+  },
+  "homepage": "https://github.com/Kappyh/meetapp-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.2.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-prettier": "^3.1.0",
+    "nodemon": "^1.19.1",
+    "prettier": "^1.18.2",
+    "sucrase": "^3.10.1"
+  }
+}
